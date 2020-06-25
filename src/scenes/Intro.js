@@ -122,16 +122,16 @@ function Intro() {
             
             <div className="display-center">
                 <Container>
-                <Row align="center" >
-                    <Col xs="content" sm="content" md="content" lg="content"  style = {{ backgroundColor: '#45494d'}}>
+                <Row>
+                    <Col md={5} lg={5} xl={5} xxl={5}  style = {{ backgroundColor: "#45494d", justifyContent: "center"}}>
                         <div className="el-heading" style={{ textAlign: 'center', padding: '30px', backgroundColor: '#45494d' }}>
                             <img src="/assets/images/hero/profile-livermore-1920-1280.jpg" alt="Anami's Profile Photo" width="200" height="200" style={{ borderRadius: '50%' }}/>
                         </div>
                     </Col>
-                    <Col xs="content" sm="content" md="content" lg="content" style = {{ backgroundColor: '#45494d'}} >
+                    <Col md={7} lg={7} xl={7} xxl={7} style = {{ backgroundColor: '#45494d'}} >
                         <div className="el-heading" style={{ padding: '30px', maxWidth:'480px', backgroundColor: '#45494d'}} >
-                            <h3>Hello! I'm Anami</h3>
-                            <h2>
+                            <h2>Hello! I'm Anami</h2>
+                            <h4>
                                 I'm a{" "}
                                 <TextLoop>
                                     <span>Software Engineer</span>
@@ -140,7 +140,7 @@ function Intro() {
                                 </TextLoop>
                                 <br />
                                 Based in San Francisco
-                            </h2>
+                            </h4>
                             <Link to="/about">
                               <button className="button button-lg button-primary">
                                   <span className="wave"></span>

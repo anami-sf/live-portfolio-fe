@@ -2,14 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
-// Stylesheet
+import { setConfiguration } from 'react-grid-system';
+ 
+
 import "./index.scss";
-// Scenes
 import Intro from "./scenes";
 
 // Components
 import Error404 from "./components/common/Error404";
 import RedirectAs404 from "./components/common/RedirectAs404";
+
+// React grid configuration
+setConfiguration({ defaultScreenClass: 'sm'});
 
 const Root = () => {
     return (
