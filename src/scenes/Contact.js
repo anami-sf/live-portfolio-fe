@@ -22,11 +22,15 @@ function Contact() {
                                     </h3>
                                     <div className="divider divider-1"></div>
                                     <h2 className="el-icon">
-                                        <span className="el-icon-title">Email Me</span>
+                                        <span className="el-icon-title">Email me</span>
                                     </h2>
-                                    <lu>
-                                        <li>blahanami.127.0.0.1@gmail.com</li>
-                                    </lu>
+                                    <div >
+                                    <ul>
+                                        <li>
+                                            <a href = "mailto: anami.127.0.0.1@gmail.com" style={{ color: "blue", textDecorationLine: "underline"}}>anami.127.0.0.1@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
                                     <h2 className="el-icon">
                                         <span className="el-icon-title">Follow Me</span>
                                     </h2>

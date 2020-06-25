@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 // Stylesheet
 import "./index.scss";
 // Scenes
-import Home from "./scenes/Home";
+import Intro from "./scenes";
 
 // Components
 import Error404 from "./components/common/Error404";
@@ -15,7 +15,7 @@ const Root = () => {
     return (
         <div>
             <Switch>
-                <Route path="/" component={Home} />
+                <Route path="/" component={Intro} />
                 <Route component={RedirectAs404} />
             </Switch>
         </div>
