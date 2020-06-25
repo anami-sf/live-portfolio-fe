@@ -16,7 +16,6 @@ const Root = () => {
         <div>
             <Switch>
                 <Route path="/" component={Home} />
-                <Route path="/home-1" component={Home} />
                 <Route component={RedirectAs404} />
             </Switch>
         </div>

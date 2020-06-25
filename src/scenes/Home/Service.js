@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { Container } from "react-grid-system";
+import { Container, Row, Col } from "react-grid-system";
 
 const service = [
     {
@@ -16,7 +16,7 @@ const service = [
     },
 
     {
-        title: "Databases:​ ",
+        title: "Databases​ ",
         subtitle: "PostgreSQL, NoSql, MongoDB, Redis",
         icon: "ti-image",
     },

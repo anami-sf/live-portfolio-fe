@@ -23,14 +23,10 @@ const links = [
         title: "Portfolio",
         path: "/portfolio",
     },
-    {
-        title: "Blog",
-        path: "/blog",
-    },
-    {
-        title: "Testimonial",
-        path: "/testimonial",
-    },
+    // {
+    //     title: "Blog",
+    //     path: "/blog",
+    // },
     {
         title: "Contact",
         path: "/contact",

@@ -7,94 +7,40 @@ function About() {
             <div className="display-spacing">
                 <Container>
                     <Row>
-                        <Hidden xs sm md>
-                            <Col lg={5}>
-                                <div className="about-image">
-                                    <div className="image overlay-image" style={{ backgroundImage: `url(/assets/images/about/1-1.jpg)` }}></div>
-                                </div>
-                            </Col>
-                        </Hidden>
-                        <Col lg={7}>
+                        <Col md={4}>
                             <div className="about-content">
                                 <header className="el-heading">
-                                    <h2 className="el-icon">
-                                        <span className="el-icon-title">ABOUT ME</span>
-                                    </h2>
-                                    <h3>
+                                    <h2>
                                         <span>Hello! I'm Anami</span>
-                                    </h3>
+                                    </h2>
                                     <div className="divider divider-1"></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim enim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </header>
-                                <Row className="pt-30">
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-ruler-pencil"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Web design</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-image"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Graphic Design</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-brush-alt"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Development</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-ruler-pencil"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Mobile Apps</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-ruler-pencil"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>UI/UX Designer</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-mobile"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Marketing Online</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
                             </div>
+                            <img src="/assets/images/about/tea-house-selfie.jpg" alt="Anami Profile Pic" style={{ borderRadius: "50%", border: "black 2px solid"}}></img>
+                        </Col>
+                        <Col>
+                            <h2 className="el-icon">
+                                    <span className="el-icon-title">Growing Up</span>
+                            </h2>                                    
+                            <p>I grew up in Mexico and I’m the oldest of 4 kids. Growing up in a big family taught me to get along with many different personalities and feel comfortable in just about any environment.</p>
+
+                            <p>I came to the U.S. with my family when I was 14 but did not speak any English. I had to be quick on my feet in order to adapt to life in a new country and learn a new language. I was ranked 11th in my high school graduating class of about 500 students. What I loved most from my new life in the U.S. was the diversity of people I came to meet and learning so much from them.</p>
+                            <h2 className="el-icon">
+                                    <span className="el-icon-title">Education & Career</span>
+                            </h2>                                    
+                            <p>Before plunging into software engineering I earned a Masters degree in Applied Economics and worked as a Financial Planner. It was a great experience from which I learned the value of good work ethics, critical thinking, and building relationships.</p>
+                            <p>After a while I realized I wasn’t completely fulfilled in this field. So after much soul searching and research I decided to enroll in an Immersive Software Engineering program. It was the best decision I have ever made!</p>
+                            <p>I was the first student to start a job as a software engineer out of my cohort and love full stack development.</p>
+                            <h2 className="el-icon">
+                                    <span className="el-icon-title">Interests and Hobbies</span>
+                            </h2> 
+                            <p>I make an effort to have a positive impact on the people and world around me by staying tuned in to social justice issues and volunteering opportunities. Last year I volunteered as an organizer for WaffleJS which raises funds for Black Girls Code.</p>
+                            <p>For fun I like concerts, cooking, painting, playing piano, and salsa dancing. I love to stay active and my daily routine includes yoga, running, swimming and strength training. I also love kayaking and skiing when in season.</p>
+                            <h2 className="el-icon">
+                                    <span className="el-icon-title">Oh the Places I’ll Go!</span>
+                            </h2> 
+                            <p>I’m actively working to develop my leadership skills and hope to go into management as I move up in my career. I'm always excited to take on a new challenge, especially solving and debugging complex problems. I cuntinously work on sharpening my technical knowledge by staying on top of new technologies and trends.  </p>
+                            <p>At work it is important to me to have a positive and tangible impact toward the growth and success of the company as well as my teammates</p>
                         </Col>
                     </Row>
                 </Container>
