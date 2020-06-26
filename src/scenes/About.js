@@ -16,7 +16,10 @@ function About() {
                                     <div className="divider divider-1"></div>
                                 </header>
                             </div>
-                            <img src="/assets/images/about/tea-house-selfie.jpg" alt="Anami Profile Pic" style={{ borderRadius: "50%", border: "black 2px solid"}}></img>
+                            <div style={{textAlign: "center"}}>
+                                <img src="/assets/images/about/tea-house-selfie.jpg" alt="Anami Profile Pic" width="250" style={{ borderRadius: "50%", border: "black 2px solid"}}></img>
+                            </div>
+                            
                         </Col>
                         <Col>
                             <h2 className="el-icon">
