@@ -141,7 +141,7 @@ function Intro() {
                                 <br />
                                 Based in San Francisco
                             </h2>
-                            <Link to="/about">
+                            <Link to="//about">
                               <button className="button button-lg button-primary">
                                   <span className="wave"></span>
                                   <span className="text">About Me</span>
