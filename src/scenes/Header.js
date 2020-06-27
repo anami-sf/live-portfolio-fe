@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink, Link } from "react-router-dom";
-import { FaTwitter, FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const links = [
     {
@@ -80,8 +80,13 @@ function Header() {
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
-                                <i className="ti-facebook-alt"></i>
+                            <a href="https://www.instagram.com/anami127001/" target="_blank">
+                                <i className="ti-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/home" target="_blank">
+                                <i className="ti-twitter-alt"></i>
                             </a>
                         </li>
                     </ul>
