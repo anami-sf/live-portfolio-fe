@@ -17,7 +17,7 @@ function About() {
                                 </header>
                             </div>
                             <div style={{textAlign: "center"}}>
-                                <img src="/assets/images/about/tea-house-selfie.jpg" alt="Anami Profile Pic" width="250" style={{ borderRadius: "50%", border: "black 2px solid"}}></img>
+                                <img src="/assets/images/about/livermore-round.png" alt="Anami Profile Pic" width="250" style={{ borderRadius: "50%", border: "black 2px solid"}}></img>
                             </div>
                             
                         </Col>
