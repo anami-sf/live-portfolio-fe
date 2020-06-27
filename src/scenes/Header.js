@@ -85,7 +85,7 @@ function Header() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/home" target="_blank">
+                            <a href="https://twitter.com/Anami15014345" target="_blank">
                                 <i className="ti-twitter-alt"></i>
                             </a>
                         </li>
@@ -108,17 +108,22 @@ function Header() {
                     <div className="sidenav-links">
                         <ul>
                             <li>
-                                <a href="!#">
+                                <a href="https://www.linkedin.com/in/anaclopez1/" target="_blank">
                                     <FaLinkedin className="icon" />
                                 </a>
                             </li>
                             <li>
-                                <a href="!#">
+                                <a href="https://github.com/anami-sf" target="_blank">
                                     <FaGithub className="icon" />
                                 </a>
                             </li>
                             <li>
-                                <a href="!#">
+                                <a href="https://www.instagram.com/anami127001/" target="_blank">
+                                    <FaInstagram className="icon" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Anami15014345" target="_blank">
                                     <FaTwitter className="icon" />
                                 </a>
                             </li>

@@ -43,13 +43,13 @@ function Contact() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/#">
-                                            <i className="ti-twitter"></i>
+                                        <a href="https://www.instagram.com/anami127001/" target="_blank">
+                                            <i className="ti-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/#">
-                                            <i className="ti-instagram"></i>
+                                        <a href="https://twitter.com/Anami15014345" target="_blank">
+                                            <i className="ti-twitter"></i>
                                         </a>
                                     </li>
                                 </ul>
